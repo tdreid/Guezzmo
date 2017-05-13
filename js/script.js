@@ -6,7 +6,7 @@ var theBanner = $("#triumph");
 $("#submit").click(function() {
   var theGuess = $("#guess").val();
   $("#guess").val("");
-  if (theGuess === theNumber) {
+  if (theGuess == theNumber) {
 
     $("#submit").prop('disabled', true);
     $("#guess").prop('disabled', true);
