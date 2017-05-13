@@ -6,7 +6,7 @@ var theBanner = $("#triumph");
 $("#submit").click(function() {
   var theGuess = $("#guess").val();
   $("#guess").val("");
-  if (theGuess == theNumber) {
+  if (theGuess === theNumber) {
 
     $("#submit").prop('disabled', true);
     $("#guess").prop('disabled', true);
@@ -26,7 +26,7 @@ $("#submit").click(function() {
 });
 
 $("#guess").keyup(function(event) {
-  if (event.keyCode == 13) {
+  if (event.keyCode === 13) {
     $("#submit").click();
   }
 });
