@@ -1,0 +1,5 @@
+engines:
+  eslint:
+    enabled: true
+    exclude_fingerprints:
+    - d34d54b29a064b1514b467da8dac2087
